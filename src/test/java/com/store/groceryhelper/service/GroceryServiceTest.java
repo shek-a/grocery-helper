@@ -50,8 +50,8 @@ public class GroceryServiceTest {
     public void shouldUpdateGrocery() {
         when(groceryRepository.findById(1)).thenReturn(Optional.of(buildGrocery("apple", Category.FRUIT)));
         when(groceryRepository.save(any())).then(i -> i.getArgument(0, Grocery.class));
-        var fruit = testInstance.updateGrocery(1, buildGrocery("milk", Category.DARIY));
-        assertThat(fruit).isEqualTo(buildGrocery("milk", Category.DARIY));
+        var fruit = testInstance.updateGrocery(1, buildGrocery("milk", Category.DAIRY));
+        assertThat(fruit).isEqualTo(buildGrocery("milk", Category.DAIRY));
     }
 
     @Test
