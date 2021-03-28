@@ -69,7 +69,6 @@ public class GroceryServiceTest {
         assertThat(exception.getMessage()).isEqualTo("id of 1 is not found");
     }
 
-
     private Grocery buildGrocery(String name, Category category) {
         return Grocery.builder()
             .id(1)
