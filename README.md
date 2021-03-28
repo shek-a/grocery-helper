@@ -1,6 +1,6 @@
 # Grocery Helper
 
-The Grocery Helper Application is a Spring Boot application exposes Restful apis to be consumed by the
+The Grocery Helper Application is a Spring Boot application which exposes Restful APIs to be consumed by the
 The Grocery Helper Web App https://github.com/shek-a/grocery-helper-web
 
 The Grocery data is stored in a H2 in-memory database.
