@@ -1,7 +1,7 @@
 package com.store.groceryhelper.model;
 
 public enum Category {
-    DARIY,
+    DAIRY,
     FRUIT,
     VEGETABLE,
     OTHER
